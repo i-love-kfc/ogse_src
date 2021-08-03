@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LuaOrig">
+      <UniqueIdentifier>{8b1b86c4-da16-46af-baf1-13ff1cb9f08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{4ff3d30d-17d3-4ac2-9c68-77bb00861609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X-RAY">
+      <UniqueIdentifier>{9965c86f-c2e7-448e-a7b9-543f452bb9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NameSpace%27s">
+      <UniqueIdentifier>{106df52d-7f3c-4978-9fd1-5a0fa3ca4889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NameSpace%27s\bit">
+      <UniqueIdentifier>{2227487b-a630-46aa-8751-ebcb6b4980c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NameSpace%27s\global">
+      <UniqueIdentifier>{5a78818d-e2eb-4322-98c4-ccecb2fc2537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NameSpace%27s\math">
+      <UniqueIdentifier>{16ba4da9-8fee-4dd8-8d81-1cd81fd93a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{f26650f6-358b-4214-9687-5befee61e23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="astro">
+      <UniqueIdentifier>{a1ab1315-f69b-486f-8590-d50d0246f96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X-RAY\blenders">
+      <UniqueIdentifier>{7b63323f-1ad8-45d1-aa50-160c5fa08ac3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>LuaOrig</Filter>
+    </ClInclude>
+    <ClInclude Include="_additional_libraries.h" />
+    <ClInclude Include="_head.h" />
+    <ClInclude Include="xray\xr_3da.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="bit.h">
+      <Filter>NameSpace%27s\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="namespaces_extensions.h">
+      <Filter>NameSpace%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="global_ns.h">
+      <Filter>NameSpace%27s\global</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>NameSpace%27s\math</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xrCommon.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xrGame.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\EntityCondition.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Environment.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\shared_str.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\texture.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_resource.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\shader.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\EffectorCam.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Random.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\CameraManager.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Game_Persistent.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_map.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_vector.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\LensFlare.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\IniFile.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Effect_Thunderbolt.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvManager.h">
+      <Filter>NameSpace%27s\global</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_lua_tbl.h">
+      <Filter>NameSpace%27s\global</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_alloc.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\RenderDevice.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\GammaControl.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Stats.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\ResourceManager.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\base_types.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\CriticalSection.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\_type_traits.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\effect_rain.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\sound.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_collide.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\FVF.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Backend.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\svector.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="astro\SunPos.h">
+      <Filter>astro</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\game_level.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\DLL_Pure.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\InputReceiver.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\pureRender.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\pureFrame.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\event.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\object_list.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\FastDelegate.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\feel.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\object_space.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\CDB.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xrXRC.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\matrix.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\timer.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\kinematics.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\intrusive_ptr.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\object.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\renderable.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\collidable.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\bone_data.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\mat_lib.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_multiset.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\r2_rendertarget.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\r2_types.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Render.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\r2.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\r_occlusion.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\light.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\r_dsgraph_structure.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\SMAP_Allocator.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\FMesh.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\particles.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\DetailManager.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\models.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_multimap.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\WallmarksEngine.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\video_player.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\HW.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_render_console.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\r_dsgraph_types.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\FixedMap.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xrPool.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\Render_interface.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xr_algorithm.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\box.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\addresses.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\du_sphere_part.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\blenders.h">
+      <Filter>X-RAY\blenders</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\xrCore.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+    <ClInclude Include="xray\console.h">
+      <Filter>X-RAY</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_main.cpp" />
+    <ClCompile Include="bit.cpp">
+      <Filter>NameSpace%27s\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="global_ns.cpp">
+      <Filter>NameSpace%27s\global</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>NameSpace%27s\math</Filter>
+    </ClCompile>
+    <ClCompile Include="internal.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\EntityCondition.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\Environment.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\texture.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\shader.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\EffectorCam.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\Random.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\CameraManager.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\Game_Persistent.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvManager.cpp">
+      <Filter>NameSpace%27s\global</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\xr_vector.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\RenderDevice.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\effect_rain.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\xrCommon.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\LensFlare.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\shared_str.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="astro\SunPos.cpp">
+      <Filter>astro</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\game_level.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\matrix.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\Backend.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\kinematics.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\xr_collide.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\object.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\collidable.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\mat_lib.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\bone_data.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\xr_render_console.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget_phase_combine.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget_phase_bloom.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget_phase_luminance.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_R_Render.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\renderable.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\Render_interface.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\light.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\Render.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r_dsgraph_render.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_R_calculate.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r_dsgraph_build.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\addresses.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget_phase_pp.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget_accum_omnipart_geom.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget_accum_point_geom.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r2_rendertarget_accum_spot_geom.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\du_sphere_part.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_accum_direct_mask.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_light_occl.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\blenders.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_accum_direct.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_accum_point.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_accum_spot.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_accum_reflected.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_luminance.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_combine.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\cblender_bloom_build.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\blender_recorder_bindings.cpp">
+      <Filter>X-RAY\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\r_occlusion.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+    <ClCompile Include="xray\particles.cpp">
+      <Filter>X-RAY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ogse.def" />
+  </ItemGroup>
+</Project>
